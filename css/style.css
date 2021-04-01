@@ -1,0 +1,727 @@
+/* Fonts used */
+@font-face {
+  font-family: "Raleway Light";
+  src: url("../fonts/Raleway-Light.eot");
+  src: url("../fonts/Raleway-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Light.woff2") format("woff2"),
+    url("../fonts/Raleway-Light.woff") format("woff"),
+    url("../fonts/Raleway-Light.ttf") format("truetype"),
+    url("../fonts/Raleway-Light.svg#Raleway-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway Medium Italic";
+  src: url("../fonts/Raleway-MediumItalic.eot");
+  src: url("../fonts/Raleway-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Raleway-MediumItalic.woff") format("woff"),
+    url("../fonts/Raleway-MediumItalic.ttf") format("truetype"),
+    url("../fonts/Raleway-MediumItalic.svg#Raleway-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway Light Italic";
+  src: url("../fonts/Raleway-LightItalic.eot");
+  src: url("../fonts/Raleway-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Raleway-LightItalic.woff2") format("woff2"),
+    url("../fonts/Raleway-LightItalic.woff") format("woff"),
+    url("../fonts/Raleway-LightItalic.ttf") format("truetype"),
+    url("../fonts/Raleway-LightItalic.svg#Raleway-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway Medium";
+  src: url("../fonts/Raleway-Medium.eot");
+  src: url("../fonts/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Raleway-Medium.woff2") format("woff2"),
+    url("../fonts/Raleway-Medium.woff") format("woff"),
+    url("../fonts/Raleway-Medium.ttf") format("truetype"),
+    url("../fonts/Raleway-Medium.svg#Raleway-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display Italic";
+  src: url("../fonts/PlayfairDisplay-Italic.eot");
+  src: url("../fonts/PlayfairDisplay-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display Bold Italic";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.eot");
+  src: url("../fonts/PlayfairDisplay-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-BoldItalic.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Playfair Display Bold";
+  src: url("../fonts/PlayfairDisplay-Bold.eot");
+  src: url("../fonts/PlayfairDisplay-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display Regular";
+  src: url("../fonts/PlayfairDisplay-Regular.eot");
+  src: url("../fonts/PlayfairDisplay-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff"),
+    url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"),
+    url("../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* MOBILE*/
+
+/* HEADER STARTS  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+p .white1 a:hover {
+  color: #b64036;
+}
+
+body {
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2%;
+}
+
+.logo {
+  display: flex;
+  width: 50%;
+}
+
+.logo img {
+  display: flex;
+  max-width: 65%;
+  padding: 1em;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  position: relative;
+}
+
+.cart img {
+  display: flex;
+  max-width: 20%;
+  padding: 1em;
+}
+
+#number {
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  font-weight: bold;
+  background-color: #e2574c;
+  border-radius: 50%;
+  color: black;
+
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  z-index: 100;
+}
+#nav {
+  z-index: 1000;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top-style: solid;
+  border-top-color: #d7d7d7;
+  border-top-width: 1px;
+  padding-top: 0.5em;
+}
+
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+.navigation ul li a {
+  font-family: "Raleway Medium";
+  font-weight: 580;
+  color: #e2574c;
+  text-decoration: none;
+}
+.navigation ul li a:hover {
+  color: #b64036;
+}
+
+/* HEADER ENDS  */
+
+/* HERO BANNER STARTS */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../assets/images/banner-girl.png), url(../assets/images/flower-bkgd.jpg);
+  background-position: 100%, center 30px, center 100%;
+  background-size: cover, contain, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.hero-container p {
+  color: white;
+  font-size: 1.5em;
+
+  text-shadow: 0.5px 0.5px 0.5px #d7d7d7;
+  padding-bottom: 30px;
+}
+
+.hero-container h2 {
+  display: flex;
+  width: 350px;
+  text-align: center;
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px #d7d7d7;
+  font-size: 3.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* HERO BANNER ENDS  */
+
+/* ABOUT STARTS  */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+}
+
+.about h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  padding-block-end: 0.5em;
+  width: 100%;
+}
+
+.about p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 3em;
+  color: black;
+  font-size: 1em;
+  text-shadow: 0.5px 0.5px 0.5px #d7d7d7;
+  padding: 2em;
+  padding-top: 15px;
+}
+
+/* ABOUT ENDS */
+
+/* SHOP GRID STARTS  */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+  height: 800px;
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px #d7d7d7;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/mens-category.jpg);
+  grid-column: 1/3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.items:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/trends-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.items:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/glasses-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.items:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/sale-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.items:nth-child(5) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/bags-category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.items:nth-child(6) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/womens-category.jpg);
+  grid-column: 1/3;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* GRID ENDS HERE  */
+
+/* FEATURED  SLIDESHOW STARTS HERE  */
+#featured h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  padding-block-end: 0.5em;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.carInfo {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carousel {
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+
+.carousel-cell {
+  text-align: center;
+  width: 100%;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+}
+
+.cartBtn {
+  display: inline-block;
+  background-color: #333;
+  border-radius: 28px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+}
+
+/* FEATURED ENDS HERE */
+
+/* UPDATES STARTS HERE  */
+
+.updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(104, 82, 82, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/images/wave-bkgd.jpg);
+  background-position: bottom;
+}
+
+.updates h2 {
+  display: flex;
+  font-size: 2em;
+  color: white;
+  padding-block-end: 0.5em;
+  width: 100%;
+  justify-content: center;
+}
+
+.updates p {
+  color: white;
+  font-size: 1em;
+  text-shadow: 0.5px 0.5px 0.5px #d7d7d7;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  line-height: 3em;
+  text-align: center;
+}
+
+form {
+  position: relative;
+}
+
+input {
+  background-color: white;
+  border-radius: 28px;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  padding: 7px 20px;
+  height: 30px;
+  width: 300px;
+  position: relative;
+}
+
+#subBtn {
+  background-color: #ee6952;
+  border-radius: 28px;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  width: 100px;
+  height: 35px;
+  right: 5px;
+  margin-top: 5px;
+}
+
+/* UPDATES ENDS HERE */
+
+/* FOOTER STARTS HERE  */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  padding: 1.5em;
+  background-color: #242424;
+  border-top-style: solid;
+  border-top-color: white;
+  border-top-width: 10px;
+}
+.foot {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.white1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.white1 a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div .white1 a:hover {
+  color: #b64036;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.sns ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sns ul li {
+  padding: 0.5em;
+}
+
+.sns span {
+  display: none;
+}
+/* FOOTER ENDS HERE  */
+
+/* TYPOGRAPHY  */
+body {
+  font-family: "Raleway Light";
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+p {
+  color: #969696;
+}
+
+h3 {
+  color: #e2574c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display Regular";
+}
+
+.playfair-italic {
+  font-family: "Playfair Display Italic";
+  padding-right: 0.5em;
+}
+
+.playfair-bold {
+  font-family: "Playfair Display Bold";
+}
+
+/* BREAK POINTS  */
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .logo {
+    display: flex;
+    width: 90%;
+  }
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .carousel-cell {
+    width: 50%;
+  }
+
+  .navigation {
+    border-top-color: transparent;
+  }
+
+  .cart {
+    order: 1;
+  }
+
+  .cart img {
+    display: flex;
+    max-width: 40%;
+    padding: 1em;
+  }
+
+  form {
+    width: 400px;
+  }
+
+  #subBtn {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 100px;
+    height: 45px;
+    right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 8px;
+  }
+  .hero-container p {
+    font-family: "Raleway Medium";
+  }
+  .hero-container h2 {
+    width: 450px;
+    display: flex;
+    justify-content: center;
+  }
+  .foot {
+    align-items: end;
+    width: 80%;
+    display: flex;
+    margin-top: 40px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+    padding: 1.5em;
+    background-color: #242424;
+  }
+  .sns {
+    display: flex;
+  }
+  .address {
+    text-align: left;
+  }
+  .sns ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .about {
+    height: 400px;
+  }
+
+  .about p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .about h2 {
+    margin-top: 40px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    height: 300px;
+    grid-gap: 0.5em;
+  }
+
+  .items span {
+    font-size: 2em;
+  }
+
+  input {
+    padding: 15px 20px;
+    width: 90%;
+  }
+
+  .updates p {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .items:nth-child(6) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/images/womens-category.jpg);
+    background-size: cover;
+    grid-column: 3/5;
+  }
+
+  .sns span {
+    display: inline-block;
+  }
+
+  .cartBtn {
+    display: inline-block;
+    background-color: #333;
+    border-radius: 28px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .grid {
+    height: 800px;
+  }
+
+  .about p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 225px;
+    margin-right: 225px;
+    padding-top: 20px;
+  }
+
+  .updates p {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .cartBtn {
+    display: inline-block;
+    background-color: #333;
+    border-radius: 28px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+  }
+
+  .carousel-cell {
+    width: 25%;
+  }
+}
+
+/* navigation sticky */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
